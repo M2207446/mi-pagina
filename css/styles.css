@@ -17,8 +17,8 @@ div{
 }
 
 table{
-width: 720px;
-height: 720px;
+width: 80%;
+height: 80%;
 margin: auto;
 margin-top: 30px;
 margin-bottom: 30px;
@@ -83,5 +83,22 @@ nav{
   padding: 10px;
 }
 
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Número de columnas */
+    width: 100vw; /* O cualquier ancho máximo que quieras */
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 2px; /* Espacio entre celdas */
+}
 
+.celda {
+    aspect-ratio: 1 / 1; /* Mantiene la celda cuadrada */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
 
