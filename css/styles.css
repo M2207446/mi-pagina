@@ -85,16 +85,37 @@ nav{
 
 .tabla {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Número de columnas */
-    width: 100vw; /* O cualquier ancho máximo que quieras */
+    grid-template-columns: repeat(9, 1fr); /* Número de columnas */
+    width: 70%; /* O cualquier ancho máximo que quieras */
     max-width: 600px;
     margin: 0 auto;
-    gap: 2px; /* Espacio entre celdas */
+    gap: 0px; /* Espacio entre celdas */
+    border: none;
 }
 
 .celda {
     aspect-ratio: 1 / 1; /* Mantiene la celda cuadrada */
-    background-color: #f0f0f0;
+    background-color: #dddada;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.celda2 {
+    aspect-ratio: 1 / 1; /* Mantiene la celda cuadrada */
+    background-color: #000000;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.celda1 {
+    aspect-ratio: 1 / 1; /* Mantiene la celda cuadrada */
+    background-color: #ffffff;
     border: 1px solid #ccc;
     display: flex;
     align-items: center;
