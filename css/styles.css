@@ -132,3 +132,11 @@ nav{
 #instrucciones{
     text-align: left;
 }
+
+.imagen1 {
+width: 50%;
+height: 50%;
+margin: auto;
+display: block;
+object-fit: cover; /* Para no deformar las imagenes por dimensiones de la misma*/
+}
