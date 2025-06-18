@@ -140,3 +140,8 @@ margin: auto;
 display: block;
 object-fit: cover; /* Para no deformar las imagenes por dimensiones de la misma*/
 }
+
+.enlace2{
+    text-decoration: none;
+    color: #000000;
+}
