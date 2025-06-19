@@ -139,9 +139,11 @@ height: 50%;
 margin: auto;
 display: block;
 object-fit: cover; /* Para no deformar las imagenes por dimensiones de la misma*/
+cursor:pointer;
 }
 
 .enlace2{
     text-decoration: none;
     color: #000000;
+    cursor:url(../res/rescaled_20x35.jpg), auto;
 }
